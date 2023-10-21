@@ -1,1 +1,1 @@
-[codeSandBox , MUI](https://ww2.freelogovectors.net/wp-content/uploads/2022/06/codesandbox-logo-freelogovectors.net_-400x57.png?lossy=1&ssl=1&fit=400%2C57)](https://codesandbox.io/s/test-task-list-kgy6xv)
+[![CodeSandbox](https://ww2.freelogovectors.net/wp-content/uploads/2022/06/codesandbox-logo-freelogovectors.net_-400x57.png?lossy=1&ssl=1&fit=400%2C57)](https://codesandbox.io/s/test-task-list-kgy6xv)
