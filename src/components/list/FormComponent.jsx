@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 
 const FormComponent = ({ initialValues, onSubmit, onCancel }) => {
-  const formik = useFormik({
+ const formik = useFormik({
     initialValues,
     validationSchema: Yup.object().shape({
       category: Yup.string()
@@ -13,9 +13,9 @@ const FormComponent = ({ initialValues, onSubmit, onCancel }) => {
       name: Yup.string()
         .required("Name is required")
         .max(10, "Name should be at most 10 characters"),
-      text: Yup.string(),
+      text: Yup.string().max(200, "Max 200 characters")
     }),
-    onSubmit,
+    onSubmit
   });
 
   return (
